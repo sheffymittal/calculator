@@ -19,9 +19,7 @@ function calculate() {
     catch (error) {
         document.getElementById('result').value = error.message
     }
-    finally{
-        alert("code is working")
-    }
+    
 }
 
 function myfunc(event) {
