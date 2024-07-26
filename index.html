@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css" />
+</head>
+
+<body>
+   
+    <div class = "container">
+        <h1>My Calculator</h1>
+        <hr>
+        <div>
+            <input id="result" type="text">
+            <table>
+                <tr>
+                   <th><button style = "padding:23px" onclick="clr('AC')">AC</button></th>
+                </tr>
+                <tr>
+                    <th><button onclick="display('9')" onkeydown="myfunc(event)">9</button></th>
+                    <th><button onclick="display('8')" onkeydown="myfunc(event)">8</button></th>
+                    <th><button onclick="display('7')" onkeydown="myfunc(event)">7</button></th>
+                    <th><button style="background-color: orange;" onclick="display('*')" onkeydown="myfunc(event)">*</button></th>
+                </tr>
+                <tr>
+                    <th><button onclick="display('6')" onkeydown="myfunc(event)">6</button></th>
+                    <th><button onclick="display('5')" onkeydown="myfunc(event)">5</button></th>
+                    <th><button onclick="display('4')" onkeydown="myfunc(event)">4</button></th>
+                    <th><button style="background-color: orange;"onclick="display('+')" onkeydown="myfunc(event)">+</button></th>
+                </tr>
+                <tr>
+                    <th><button onclick="display('3')" onkeydown="myfunc(event)">3</button></th>
+                    <th><button onclick="display('2')" onkeydown="myfunc(event)">2</button></th>
+                    <th><button onclick="display('1')" onkeydown="myfunc(event)">1</button></th>
+                    <th><button style="background-color: orange;" onclick="display('-')" onkeydown="myfunc(event)">-</button></th>
+                </tr>
+                <tr>
+                    <th><button onclick="calculate()" onkeydown="myfunc(event)">=</button></th>
+                    <th><button onclick="display('0')" onkeydown="myfunc(event)">0</button></th>
+                    <th><button onclick="display('/')" onkeydown="myfunc(event)">/</button></th>
+                    <th><button style="background-color: orange;" onclick="display('.')" onkeydown="myfunc(event)">.</button></th>
+                </tr>
+        </table>
+        </div>
+    </div>
+
+    <script src="./calculator.js"></script>
+</body>
+
+</html>

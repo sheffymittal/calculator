@@ -1,0 +1,39 @@
+body{
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+    padding:50px;
+    margin-left: 400px;
+
+}
+
+.container{
+    background-color: black;
+    width: 400px;
+    height: 600px;
+    padding: 50px;
+    
+}
+
+button{
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 1px;
+}
+
+/* th{
+    padding: 1px;
+} */
+
+#result{
+height: 50px ;
+width:350px;
+font-size: xx-large;
+font-weight: bold;
+}
+
+h1{
+    color: beige;
+}
+
